@@ -12,7 +12,7 @@ public class AppTest {
     @Test
     public void testAdd() {
 
-        assertEquals(Calculette.add(a, b), 8);
+        assertEquals(Calculette.add(a, b), 7);
     }
 
     @Test
