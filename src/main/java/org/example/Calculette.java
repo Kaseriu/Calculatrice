@@ -3,7 +3,7 @@ package org.example;
 public class Calculette {
 
     public static int add(int a, int b) {
-        return a + b;
+        return a + b + 1;
     }
 
     public static int sub(int a, int b) {
