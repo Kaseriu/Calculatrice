@@ -9,7 +9,7 @@ pipeline {
         }
         stage('Test') {
             steps {
-                sh './mvnw test'
+                sh './test/java/org.example/AppTest()'
             }
         }
         stage('Deploy') {
