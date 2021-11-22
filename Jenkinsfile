@@ -9,7 +9,7 @@ pipeline {
         }
         stage('Test') {
             steps {
-                sh './test/java/org.example/AppTest()'
+                sh 'test -f pom.xml'
             }
         }
         stage('Deploy') {
