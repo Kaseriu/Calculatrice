@@ -8,7 +8,7 @@ pipeline {
     stages {
         stage('Build') {
             steps {
-                sh 'java --version'
+                sh 'mvn compile'
             }
         }
         stage('Test') {
@@ -18,7 +18,7 @@ pipeline {
         }
         stage('Deploy') {
             steps {
-                echo 'Deploying....'
+                sh 'mvn deploy'
             }
         }
     }
