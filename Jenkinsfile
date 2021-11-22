@@ -9,7 +9,7 @@ pipeline {
         }
         stage('Test') {
             steps {
-                sh 'Run Test'
+                Run 'AppTest()'
             }
         }
         stage('Deploy') {
