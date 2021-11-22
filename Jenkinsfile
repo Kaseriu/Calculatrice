@@ -9,7 +9,7 @@ pipeline {
         }
         stage('Test') {
             steps {
-                Run 'AppTest()'
+                sh './mvnw test'
             }
         }
         stage('Deploy') {
