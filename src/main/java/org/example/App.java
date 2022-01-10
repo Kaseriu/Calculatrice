@@ -13,5 +13,6 @@ public class App {
         System.out.println(Calculette.mul(a, b));
         System.out.println(Calculette.div(a, b));
         System.out.println(Calculette.avg(c));
+        
     }
 }
